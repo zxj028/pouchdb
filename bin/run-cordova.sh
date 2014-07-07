@@ -83,6 +83,6 @@ if [[ $(cordova plugin list | grep sqlite) ]]; then
   cordova plugin rm com.phonegap.plugins.sqlite
 fi
 if [[ $SQLITE_PLUGIN == 'true' ]]; then 
-  cordova plugin add /Users/nolan/workspace/Cordova-SQLitePlugin/plugin
+  cordova plugin add /Users/nolan/workspace/Cordova-SQLitePlugin
 fi
 ../../node_modules/cordova/bin/cordova $ACTION $CLIENT
