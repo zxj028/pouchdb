@@ -1998,4 +1998,27 @@ downAdapters.map(function (adapter) {
     });
 
   });
+
+  describe('test.replication.js-down-test with events', function () {
+
+    var dbs = {};
+
+    beforeEach(function (done) {
+      dbs.name = testUtils.adapterUrl(adapters[0], 'test_repl');
+      testUtils.cleanup([dbs.name], done);
+    });
+
+    afterEach(function (done) {
+      testUtils.cleanup([dbs.name], done);
+    });
+
+    it('replicate from down server test', function (done) {
+      PouchDB.replicate(dbs.name, 'http://infiniterequest.com')
+        .on('error', function (err) {
+          should.exist(err);
+          done();
+        });
+    });
+
+  });
 });
