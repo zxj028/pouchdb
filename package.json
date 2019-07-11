@@ -50,7 +50,6 @@
   "files": [
     "lib",
     "dist",
-    "tonic-example.js",
-    "node_modules"
+    "tonic-example.js"
   ]
 }
