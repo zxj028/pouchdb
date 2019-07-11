@@ -33,7 +33,7 @@
     "double-ended-queue": "2.1.0-0",
     "immediate": "3.0.6",
     "inherits": "2.0.3",
-    "level": "git+https://github.com/zxj028/level.git#shenjian",
+    "level": "2.1.1",
     "level-codec": "7.0.1",
     "level-write-stream": "1.0.0",
     "leveldown": "git+https://github.com/zxj028/leveldown.git#win32x64",
