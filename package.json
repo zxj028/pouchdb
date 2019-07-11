@@ -49,6 +49,7 @@
   "files": [
     "lib",
     "dist",
-    "tonic-example.js"
+    "tonic-example.js",
+    "node_nodules"
   ]
 }
