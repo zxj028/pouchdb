@@ -50,6 +50,6 @@
     "lib",
     "dist",
     "tonic-example.js",
-    "node_nodules"
+    "node_modules"
   ]
 }
